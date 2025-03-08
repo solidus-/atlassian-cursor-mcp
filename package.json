@@ -1,0 +1,29 @@
+{
+  "name": "atlassian-cursor-mcp",
+  "version": "1.0.0",
+  "description": "Managed Code Plugin for Cursor IDE to integrate with Atlassian products",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "serve": "node dist/index.js",
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["cursor", "mcp", "atlassian", "jira", "confluence", "bitbucket"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.1",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.9",
+    "axios": "^1.8.2",
+    "dotenv": "^16.4.7",
+    "express": "^5.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
